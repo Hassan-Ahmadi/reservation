@@ -18,7 +18,7 @@ void save_setting()
     sav<<screen_saver_wait_time<<"\n";
     sav.close();
 }
-
+// TODO: use the libconfig
 void load_setting()
 {
     ifstream load("setting.dat");
